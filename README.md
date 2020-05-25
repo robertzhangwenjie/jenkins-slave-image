@@ -1,6 +1,6 @@
 # 基于jenkinsci/slave 定制的镜像
 
-	- 概述
+- 概述
 
 - - 早前，基本都是使用虚拟机安装jenkins，然后将其作为jenkins       slave配置到master上，当没有任何job运行在该服务器时，依然会占用服务器的资源，云计算时代，利用docker       agent作为jenkins agent的弹性机制，在运行流水线时才创建镜像，运行结束后销毁，为了达到这个目的，我们需要创建Jenkins slave的基础镜像
 
@@ -55,6 +55,6 @@
       - 切换工作目录
       - 如果切换了工作用户，最后需要切换回jenkins
 
-- 个人镜像参考
+
 
  
