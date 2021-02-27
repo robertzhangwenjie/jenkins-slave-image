@@ -1,4 +1,4 @@
-FROM jenkinsci/slave:latest
+FROM jenkinsci/ssh-agent:latest
 
 ENV NODE_VERSION 13.14.0
 
